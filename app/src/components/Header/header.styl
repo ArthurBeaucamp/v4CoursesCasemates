@@ -1,0 +1,32 @@
+@require "app/styles/charte"
+
+.navbar
+  background: $gray
+  color: $orange
+  display: flex
+  justify-content: space-around
+  &-item
+    font-size: 1.7em
+    padding: .25em
+    &:hover
+      text-decoration: underline
+
+.containerVisual
+  background: url(../img/header.jpg) no-repeat center
+  background-size: cover
+  height: 200px
+  box-shadow: 0 5px 20px 5px $gray;
+  position: relative
+  &-info
+    color: $orange
+    position: absolute
+    top: 1.2em
+    left: .8em
+    transform: rotate(-5deg)
+    &-title
+      font-size: 2.6em
+      font-weight: bold
+    &-para
+      font-size: 1.2em
+      text-align: center
+      margin: .5em
