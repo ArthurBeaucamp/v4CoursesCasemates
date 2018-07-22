@@ -8,13 +8,17 @@ import React from 'react';
  * Local import
  */
 import Sponsors from 'src/components/Home/Sponsors';
+import Actus from 'src/components/Home/Actus';
 
 /**
  * Code
  */
 
 const Home = () => (
-  <Sponsors />
+  <div id="container">
+    <Sponsors />
+    <Actus />
+  </div>
 );
 
 /**
